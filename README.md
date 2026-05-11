@@ -92,13 +92,16 @@ Once running, visit the Swagger UI at `http://localhost:4040/api` for interactiv
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contribution Note
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests
-5. Submit a pull request
+This repository is based on a collaborative real-world eCommerce project.  
+The core backend architecture was initially developed by another team member, while I contributed to feature development, frontend/backend integrations, and additional backend functionality during later stages of the project.
+
+My contributions included:
+- Coupon and discount system integration
+- Payment-related frontend/backend flows
+- API integrations with frontend applications
+- Feature enhancements and maintenance
 
 ---
 
