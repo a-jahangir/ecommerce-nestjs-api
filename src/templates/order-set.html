@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Order set</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @media only screen and (max-width: 480px) {
+        .container {
+          width: 100% !important;
+          padding: 0 10px !important;
+        }
+        .content-padding {
+          padding: 20px !important;
+        }
+        .content-padding p {
+          margin-left: 20px !important;
+          margin-right: 20px !important;
+          margin-top: 12px !important;
+          margin-bottom: 12px !important;
+        }
+      }
+    </style>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      font-family: 'Poppins', Arial, sans-serif;
+    "
+  >
+    <table
+      role="presentation"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      width="100%"
+    >
+      <tr>
+        <td align="center">
+          <table
+            class="container"
+            role="presentation"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            width="412"
+            style="
+              max-width: 412px;
+              width: 100%;
+              margin: 0 auto;
+              border-collapse: collapse;
+            "
+          >
+            <!-- Header -->
+            <tr>
+              <td style="padding: 25px 40px 40px 40px">
+                <table
+                  role="presentation"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  width="100%"
+                >
+                  <tr>
+                    <td>
+                      <h1
+                        style="
+                          margin: 0;
+                          font-size: 16px;
+                          font-weight: 600;
+                          color: #262626;
+                          font-family: 'Poppins', Arial, sans-serif;
+                        "
+                      >
+                        Ecommerce Platform
+                      </h1>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Body -->
+            <tr>
+              <td>
+                <table
+                  role="presentation"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  width="100%"
+                  style="background-color: #ffffff"
+                >
+                  <tr>
+                    <td
+                      class="content-padding"
+                      style="font-size: 15px; color: #262626; line-height: 20px"
+                    >
+                      <p style="margin: 0 40px 12px 40px">
+                        Hi {{Customer Name}},
+                      </p>
+                      <p style="margin: 0 40px 12px 40px">
+                        Thank you for your purchase! 🎉
+                      </p>
+                      <p style="margin: 0 40px 12px 40px; line-height: 1.5rem">
+                        We've received your order
+                        <span style="display: block"
+                          >#{{ORDER_NUMBER}} and your payment has been
+                          successfully processed.</span
+                        >
+                      </p>
+                      <p style="margin: 0 40px 12px 40px; line-height: 1.5rem">
+                        You can view your order details and the status anytime
+                        from your profile:
+                      </p>
+                      <p style="margin: 24px 0; text-align: center">
+                        <a
+                          href="https://yourdomain.com/profile/orders"
+                          target="_blank"
+                          style="
+                            display: inline-block;
+                            width: 146px;
+                            height: 40px;
+                            line-height: 40px;
+                            border: 2px solid #262626;
+                            border-radius: 20px;
+                            box-shadow: 0px 4px 6px -2px rgba(38, 38, 38, 0.1),
+                              0px 2px 4px -1px rgba(38, 38, 38, 0.1);
+                            text-decoration: none;
+                            color: #262626;
+                            font-weight: 500;
+                            font-size: 1rem;
+                            font-family: 'Poppins', Arial, sans-serif;
+                            text-align: center;
+                          "
+                          >My Orders</a
+                        >
+                      </p>
+                      <p style="margin: 0 40px 12px 40px">
+                        If you have any questions or need support, feel free to
+                        contact us.
+                      </p>
+                      <p style="margin: 0 40px 0 40px">
+                        Thanks again for shopping with us! The Ecommerce Team
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Spacer before footer -->
+            <tr>
+              <td height="25" style="font-size: 0; line-height: 0">&nbsp;</td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td>
+                <table
+                  role="presentation"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  width="100%"
+                  style="background-color: #f1f9f4"
+                >
+                  <tr>
+                    <td
+                      class="content-padding"
+                      style="
+                        padding: 25px 40px;
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #262626;
+                        font-family: 'Poppins', Arial, sans-serif;
+                      "
+                    >
+                      <p style="margin: 0 0 24px">
+                        yourdomain.com is a registered trade name of Your Company
+                        B.V, registered in the Netherlands with its main office
+                        at [Your Address], Netherlands.
+                      </p>
+                      <p style="margin: 0">
+                        © 2025 yourdomain.com All rights reserved. Your Brand and
+                        all related marks are trademarks or registered
+                        trademarks of Your Company B.V or its affiliates.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
